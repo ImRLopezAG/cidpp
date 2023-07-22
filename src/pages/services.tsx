@@ -1,7 +1,7 @@
 export const Services = (): JSX.Element => {
   return (
     <section className='flex flex-col items-center [&>div]:mb-4'>
-      <h1 className='text-4xl font-bold'>Servicios</h1>
+      <h1 className='text-4xl font-bold text-[#0071bc]'>Servicios</h1>
       <div className='flex flex-col items-start'>
         <h2 className='text-2xl font-bold text-[#0071bc] mb-3'>
           Capacitación de recursos educativos y didácticos
