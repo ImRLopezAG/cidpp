@@ -25,6 +25,11 @@ export const Header = (): JSX.Element => {
               Sobre Nosototros
             </NavLink>
           </li>
+          <li>
+            <NavLink to='/platform' className='hover:text-[#0071bc]'>
+              Plataforma Virtual
+            </NavLink>
+          </li>
         </ul>
         <div className='flex items-center grow-1'>
           <img src='/logo.png' alt='logo' className='h-8 w-full' />

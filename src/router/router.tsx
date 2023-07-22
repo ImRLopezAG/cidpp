@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { App } from './app'
-import { About, Contact, Home, Services } from '../pages'
+import { About, Contact, Home, Platform, Services } from '../pages'
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: '/services',
         element: <Services />
+      },
+      {
+        path: '/platform',
+        element: <Platform />
       }
     ]
   }
