@@ -84,33 +84,41 @@ export const About = (): JSX.Element => {
                 un entorno seguro y confiabl
               </li>
               <li className='text-justify'>
-                <strong>Empatía:</strong> Valoramos y comprendemos las necesidades emocionales y
-                profesionales de nuestros clientes. Nos esforzamos por
-                establecer una conexión empática, brindando un trato cálido,
-                comprensivo y respetuoso.
+                <strong>Empatía:</strong> Valoramos y comprendemos las
+                necesidades emocionales y profesionales de nuestros clientes.
+                Nos esforzamos por establecer una conexión empática, brindando
+                un trato cálido, comprensivo y respetuoso.
               </li>
               <li className='text-justify'>
-                <strong>Innovación:</strong> Buscamos constantemente nuevas formas de mejorar
-                nuestros servicios y adaptarnos a las demandas cambiantes del
-                mercado. Fomentamos la creatividad, la investigación y la
-                implementación de soluciones innovadoras.
+                <strong>Innovación:</strong> Buscamos constantemente nuevas
+                formas de mejorar nuestros servicios y adaptarnos a las demandas
+                cambiantes del mercado. Fomentamos la creatividad, la
+                investigación y la implementación de soluciones innovadoras.
               </li>
               <li className='text-justify'>
-                <strong>Colaboración:</strong> Trabajamos en equipo, promoviendo la colaboración
-                y el intercambio de conocimientos. Establecemos alianzas
-                estratégicas con profesionales y organizaciones afines, buscando
-                sinergias para lograr un mayor impacto.
+                <strong>Colaboración:</strong> Trabajamos en equipo, promoviendo
+                la colaboración y el intercambio de conocimientos. Establecemos
+                alianzas estratégicas con profesionales y organizaciones afines,
+                buscando sinergias para lograr un mayor impacto.
               </li>
               <li className='text-justify'>
-                <strong>Responsabilidad social:</strong> Nos comprometemos a contribuir al
-                bienestar de la comunidad y a promover la igualdad de
-                oportunidades. Buscamos generar un impacto positivo en la
+                <strong>Responsabilidad social:</strong> Nos comprometemos a
+                contribuir al bienestar de la comunidad y a promover la igualdad
+                de oportunidades. Buscamos generar un impacto positivo en la
                 sociedad a través de nuestras acciones y programas de
                 responsabilidad social corporativa.
               </li>
             </ul>
           </div>
         </section>
+      </div>
+      <div className='flex flex-col items-center justify-center'>
+        <h2 className='text-[#0071bc] text-4xl text-bold mb-4'>
+          Nuestras instalaciones
+        </h2>
+        <video className='w-full' autoPlay muted loop>
+          <source src='img/CIDPP.mp4' type='video/mp4' />
+        </video>
       </div>
     </section>
   )
